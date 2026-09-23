@@ -1,0 +1,14 @@
+Column Name,Data Type,Meaning,Example,Possible Data Quality Issues,How It Will Be Used
+Invoice ID,object (string),Unique alphanumeric identifier for each store checkout transaction,INV0001,"Duplicate IDs, inconsistent prefix format",Primary Key for transaction uniqueness and validation
+Date,datetime64[ns],Timestamp date when the retail purchase occurred,2026-06-01,"Out-of-range dates, incorrect string format","Time-series aggregation, seasonality, monthly trend analysis"
+Branch,object (string),"Supermarket physical store branch code (A, B, C, D)",A,"Inconsistent casing, invalid branch codes","Branch performance evaluation, multi-branch comparisons"
+City,object (string),Metropolitan city location of the supermarket branch,Jaipur,"Misspelling, trailing spaces",Geographic sales distribution (1-to-1 mapped with Branch)
+Customer Type,object (string),Membership classification of purchaser (Member vs Normal),Member,"Category typos, unrecognized customer groups","Loyalty program efficacy, average basket size comparison"
+Gender,object (string),Self-reported gender of the purchasing customer,Male,Inconsistent gender categories,Demographic purchasing behavior analysis
+Product,object (string),Specific product item name purchased in transaction,Rice,"Item naming variations, case inconsistencies","Top/bottom product ranking, product performance analysis"
+Category,object (string),High-level department category grouping for products,Grocery,Mismatched category-product mappings,"Category revenue contribution, inventory planning"
+Quantity,int64,Number of product units purchased in transaction,4,"Negative quantities, zero values, extreme outliers","Volume demand analysis, unit binning"
+Unit Price,float64,Price per individual unit of product (in INR ₹),57.13,"Negative price, zero price, price discrepancies per product","Pricing elasticity, revenue calculations"
+Payment,object (string),"Payment channel used at POS (UPI, Net Banking, Card, Cash)",UPI,Inconsistent payment names,Digital vs cash checkout distribution analysis
+Rating,float64,Customer feedback satisfaction score (scale 3.0 to 5.0),3.8,Out of range ratings (< 1.0 or > 5.0),"Satisfaction analysis, rating vs sales correlation"
+Sales,float64,Total monetary transaction value (Quantity × Unit Price),228.52,Mismatch with Quantity * Unit Price calculation,"Core KPI for total revenue, branch metrics, executive reports"

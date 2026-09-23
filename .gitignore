@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS temporary files
+Thumbs.db
+.DS_Store
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Large temporary exports
+scratch/
+*.tmp
