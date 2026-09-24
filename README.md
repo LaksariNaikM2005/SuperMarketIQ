@@ -6,7 +6,7 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-1.4%2B-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.style=for-the-badge?style=for-the-badge)
 
-An enterprise-grade supermarket sales analytics and machine learning solution built for the **IBM Data Analyst with AI Masterclass Internship Program**. SuperMarketIQ transforms raw transactional records into actionable retail strategy through a 15-point data quality audit, robust temporal feature engineering, statistical EDA, machine learning customer classification, and an interactive Streamlit dashboard.
+An enterprise-grade supermarket sales analytics and machine learning solution built for the **IBM Data Analyst with AI Internship Program**. SuperMarketIQ transforms raw transactional records into actionable retail strategy through a 15-point data quality audit, robust temporal feature engineering, statistical EDA, machine learning customer classification, and an interactive Streamlit dashboard.
 
 ---
 
