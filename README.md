@@ -196,6 +196,7 @@ Access the dashboard in your web browser at `http://localhost:8501`.
 | **Machine Learning** | scikit-learn | Data scaling, train-test splitting, and Logistic Regression model |
 | **Environment** | Jupyter Notebook | Interactive exploratory analysis & prototyping |
 
+
 ---
 
 ## 📜 IBM AI Governance & Ethics Standards
@@ -209,5 +210,6 @@ Adhering to the **IBM Data Analyst with AI Masterclass** guidelines:
 ## 👤 Author & Acknowledgments
 
 * **Project Developer**: AI Data Analytics Intern
-* **Program**: IBM Data Analyst with AI Masterclass Internship Program
+* **Program**: IBM Data Analyst with AI Internship Program
 * **Dataset Source**: `SUPER MARKET DATA.xlsx` (IBM SkillsBuild / Ground Truth)
+
